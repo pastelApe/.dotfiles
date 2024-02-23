@@ -13,3 +13,5 @@ alias lla='ls -la'
 alias lt='ls --tree --depth 2'
 ## Interact directly with configuration repository
 alias config='/usr/bin/git --git-dir=/Users/xavier/.dotfiles/.git --work-tree=/Users/xavier'
+# Use homebrew installed ruby instead of system provided version
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
